@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36429.23 d17.14
+VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejercicio_28_LaVigaMasResistente", "Ejercicio_28_LaVigaMasResistente", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejercicios_37_CaballosEnConflicto", "Ejercicios_37_CaballosEnConflicto", "{1B775C06-06BD-4B81-93B7-65683F2DB864}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenealClasses.Core", "GenealClasses.Core\GenealClasses.Core.csproj", "{4931646A-5F3F-43FB-8095-695C50B1A5B6}"
 EndProject
