@@ -10,7 +10,7 @@ namespace LaVigaMasResistente
         public int CalculateTotalWeight(string beamString)
         {
            
-            int baseResistance = GetBaseResistance(beamString[0]);
+            int baseResistance = GetBaseResistanceFromChar(beamString[0]);
 
             
             string restOfBeam = beamString.Substring(1);
@@ -26,7 +26,7 @@ namespace LaVigaMasResistente
         }
 
       
-        private int GetBaseResistance(char baseChar)
+        public int GetBaseResistanceFromChar(char baseChar)
         {
             switch (baseChar)
             {
@@ -98,9 +98,6 @@ namespace LaVigaMasResistente
             return totalWeight;
         }
 
-        public int GetBaseResistanceFromChar(char baseChar)
-        {
-            return GetBaseResistance(baseChar);
-        }
+        
     }
 }

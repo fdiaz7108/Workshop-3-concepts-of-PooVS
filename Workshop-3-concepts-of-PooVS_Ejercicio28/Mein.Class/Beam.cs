@@ -1,8 +1,6 @@
-﻿using Mein.Class;
-
-namespace LaVigaMasResistente
+﻿namespace LaVigaMasResistente
 {
-    public class Beam
+    public  class Beam
     {
         private string beamString;
         private bool isValid;
