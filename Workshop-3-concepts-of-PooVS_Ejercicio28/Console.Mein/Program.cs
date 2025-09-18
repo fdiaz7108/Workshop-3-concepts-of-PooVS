@@ -1,5 +1,4 @@
 ﻿
-
 namespace LaVigaMasResistente
 {
     class Program
